@@ -1,0 +1,41 @@
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.25rem 0;
+  background-color: transparent;
+  z-index: 5;
+  transition: all 0.3s ease-out;
+}
+
+#header.active {
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15) !important;
+  transition: all 0.3s ease-out;
+}
+
+.sp-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: #fff;
+  transition: right 0.3s ease-in-out;
+}
+
+.sp-menu.active {
+  right: 0;
+  transition: right 0.3s ease-in-out;
+}
+
+.logo {
+  width: 7rem;
+}
+
+#search {
+  max-width: 206px;
+  /* line-height: 30px; */
+}

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('../../fonts/NotoSansJP.ttf') format('truetype');
+}
+
+html,
+body {
+    font-family: "Noto Sans JP";
+}
+
+.text-active {
+    color: #4CA7EE;
+}
+
+.bg-active {
+    background-color: #4CA7EE;
+}
+
+a {
+    text-decoration: none;
+    color: #344D64;
+}
+
+.bg-secondary-white {
+    background-color: #F4F1ED;
+}
+
+.bg-light-success {
+    background-color: #CDF2C9;
+}
+
+.bg-secondary-grey {
+    background-color: #F5F5F5;
+}
+
+.bg-light-warning {
+    background-color: #FFF7E2 !important;
+}
+
+main {
+    min-height: calc(100vh - 251px);
+}
+
+.drop-zone {
+    width: 100%;
+    height: calc(100% - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 1px solid #4CA7EE;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width: 450px) {
+    .drop-zone {
+        height: 150px;
+    }
+}
+
+.colorPicker {
+    display: none;
+    transition: display 0.3s ease-in;
+}
+
+.colorPicker.active {
+    display: block;
+    transition: display 0.3s ease-in;
+}

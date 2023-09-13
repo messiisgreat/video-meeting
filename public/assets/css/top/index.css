@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('../../fonts/NotoSansJP.ttf') format('truetype');
+}
+
+html, body {
+    font-family: "Noto Sans JP";
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.out-container {
+    max-width: 1440px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: transparent;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.main-visual {
+    background-image: url(../../img/index-main-visual.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+.max-w-800 {
+    max-width: 800px;
+}
+
+.max-w-1000 {
+    max-width: 1000px;
+}
+
+.active {
+    color: #1157E2;
+}
+
+section {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+
+.plyr--video {
+    border-radius: 1rem;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('../../fonts/NotoSansJP.ttf') format('truetype');
+}
+
+html, body {
+    font-family: "Noto Sans JP";
+}
+
+.text-active {
+    color: #4CA7EE;
+}
+
+.bg-active {
+    background-color: #4CA7EE;
+}
+
+a {
+    text-decoration: none;
+    color: #344D64;
+}
+
+.bg-secondary-white {
+    background-color: #F4F1ED;
+}
+
+.bg-light-success {
+    background-color: #CDF2C9;
+}
+
+.bg-secondary-grey {
+    background-color: #F5F5F5;
+}
+
+.bg-light-warning {
+    background-color: #FFF7E2 !important;
+}
+
+th {
+    background-color: #F4F4F4 !important;
+}
+
+main {
+    min-height: calc(100vh - 251px);
+}
+
+#messages_table {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#messages_table tr td:first-child {
+    padding-left: 48px;
+}
+
+#messages_table tr td:nth-child(3) {
+    text-wrap: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    max-width: 300px;
+}
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    /* or */
+    word-break: break-all;
+ }
+
+ .modal-preview {
+    font-size: 14px;
+ }

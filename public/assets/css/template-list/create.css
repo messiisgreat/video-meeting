@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('../../fonts/NotoSansJP.ttf') format('truetype');
+}
+
+html, body {
+    font-family: "Noto Sans JP";
+}
+
+.text-active {
+    color: #4CA7EE;
+}
+
+.bg-active {
+    background-color: #4CA7EE;
+}
+
+a {
+    text-decoration: none;
+    color: #344D64;
+}
+
+.bg-secondary-white {
+    background-color: #F4F1ED;
+}
+
+.bg-light-success {
+    background-color: #CDF2C9;
+}
+
+.bg-secondary-grey {
+    background-color: #F5F5F5;
+}
+
+.bg-light-warning {
+    background-color: #FFF7E2 !important;
+}
+
+th {
+    background-color: #F4F4F4 !important;
+}
+
+main {
+    min-height: calc(100vh - 251px);
+}
+
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+    width: 100%;
+    padding-inline: 1rem;
+}
+
+#editor {
+    height: 412px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.ql-toolbar {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+
+.ql-picker-label {
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.ql-picker-label svg {
+    margin-top: -11px !important;
+    right: -4px;
+    top: 50%;
+    width: 30px;
+}
+
+.ql-picker-label polygon:not(:first-child) {
+    display: none;
+}
+
+.ql-toolbar {
+    background-color: #D6DBDF;
+}
+
+.ql-formats:last-child {
+    display: none;
+}
+/* .ck.ck-editor__main {
+    min-height: 300px;
+}
+
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-blurred {
+    min-height: 300px;
+} */

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans JP Regular'), local('NotoSansJP-Regular'),
+    url('../../fonts/static/NotoSansJP-Regular.ttf') format('ttf'),
+    url('../../fonts/static/NotoSansJP-Black.ttf') format('ttf');
+}
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+main {
+  --width-min: calc(100vh - 256px);
+  min-height: var(--width-min);
+}
+
+.max-1200 {
+  max-width: 1200px;
+}
+
+.fs-20 {
+  font-size: 1.25rem !important;
+}
+
+.fs-14 {
+  font-size: 0.875rem !important;
+}
+
+
+.fs-18 {
+  font-size: 1.125rem !important;
+}
+
+.fs-12 {
+  font-size: 0.75rem !important;
+}
+
+.fs-10 {
+  font-size: 0.625rem !important;
+}
+
+.text-main {
+  color: #4CA7EE;
+}
+
+.bg-main {
+  background-color: #4CA7EE;
+}
+
+#edit_profile {
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+main {
+  padding: 80px;
+}
+
+#users {
+  padding: 120px;
+}
+
+#invite{
+  right: 4px;
+  top: 4px;
+  z-index: 1005;
+  
+}
+
+#invite:hover{
+  box-shadow:  0 .125rem 1rem rgba(0, 0, 0, .2) !important
+}
+
+.table-sec th{
+  background-color: #F4F4F4!important;
+}
+
+.table-sec th,
+.table-sec td{
+  font-weight: normal!important;
+}
+
+.table-sec th:first-child{
+  border-top-left-radius: 1rem;
+}
+
+.table-sec th:last-child{
+  border-top-right-radius: 1rem;
+}
+
+#edit_profile {
+  cursor: pointer;
+}

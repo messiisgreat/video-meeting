@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="333" viewBox="0 0 590 333">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.286" y1="-0.069" x2="0.766" y2="1.048" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="0.485" stop-color="#bababa"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+  </defs>
+  <rect id="camera-screen" width="590" height="333" rx="20" fill="url(#linear-gradient)"/>
+</svg>

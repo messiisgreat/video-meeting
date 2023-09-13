@@ -1,0 +1,27 @@
+
+
+#successModal .body-header{
+    text-align: center;
+    font-size: 1.75rem;
+ }
+
+ #successModal img{
+    width:200px;
+ }
+
+ .modal-body {
+    max-height: 70vh;
+ }
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-body {
+    max-height: 560px;
+    overflow-y: auto;
+}
+
+.body-footer h6 {
+    padding-top: 16px;
+}
